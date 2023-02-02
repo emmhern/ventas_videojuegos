@@ -1,0 +1,68 @@
+#grafico {
+    position: center;
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 100%;
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+    filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );
+}
+
+.title {
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    opacity: inherit;
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+    filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    padding: 8px;
+    font: 14px sans-serif;
+    background: #F0EAB2;
+    border: solid 3px #aaa;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+body {
+    font-family: Arial;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+path.slice {
+    stroke-width: 2px;
+}
+
+polyline {
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.caja1 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 250px;
+    margin-right: 100px;
+    height: 100px;
+    width: 620px;
+    padding: 20px;
+    border: solid #7d1399;
+    color: #aaa
+}
+
+
+
+td {
+    width: 170px;
+}
